@@ -1,0 +1,11 @@
+#header{
+    
+    background-color: antiquewhite;
+    animation-name: head;
+    animation-duration:10s ;
+}
+
+@keyframes head{
+     from{background-color: antiquewhite;}
+     to{background-color: blueviolet;}
+}
