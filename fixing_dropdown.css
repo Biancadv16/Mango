@@ -76,3 +76,37 @@ svg{
 }
 
 /*DropDown Animation*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+      opacity: 0;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+ 
+  @keyframes dropfade {
+      0%{opacity: 0;}
+      100%{opacity: 1;}
+  }
+
+  .dropdown:nth-child(2){
+      animation-delay: -1s;
+  }
+  .dropdown:nth-child(3){
+      animation-delay: -3s;
+  }
+  .dropfader{
+      position: relative;
+    display: block;
+    animation: dropfade 1s linear 1;
+    -webkit-animation-fill-mode: forwards;
+  }
