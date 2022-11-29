@@ -11,7 +11,7 @@ svg{
 
     display: block;
     font: 5em 'Montserrat';
-    width: 370px;
+    width: 300px;
     height: 60px;
  
 }
@@ -52,9 +52,7 @@ svg{
 @keyframes stroke-offset{
     100%{stroke-dashoffset: -38%;}
 }
-    body{
-      background-color: #CED0CE;
-    }
+   
  .btn{
   border-color: darkgrey;
   border-width: 2px;
